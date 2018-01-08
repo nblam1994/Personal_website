@@ -20,7 +20,8 @@
 .pre_paragraph {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-size: 15px;
+	font-size: 20px;
+	font-family: 'Bellefair', serif;
 }
 
 #header {
@@ -59,6 +60,11 @@
 .note {
 	position: relative;
 	float: right;
+}
+
+.final-note {
+	font-size: 15px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 footer {
