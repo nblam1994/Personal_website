@@ -31,3 +31,36 @@
 .navbar-fixed-bottom {
 	height: 20%;
 }
+
+.infor {
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.glyphicon {
+    font-size: 20px;
+}
+
+.ion-social-facebook {
+	font-size: 15px;
+	margin-right: 2px;
+}
+
+.ion-android-mail {
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.ion-social-linkedin{
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.note {
+	position: relative;
+	float: right;
+}
+
+footer {
+	position: relative;
+}
