@@ -76,7 +76,10 @@
 .container-list {
 	padding-left: 10%;
 	padding-right: 10%;
+	margin-right: 5px;
 }
+
+
 
 footer {
 	position: relative;
