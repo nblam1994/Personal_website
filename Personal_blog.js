@@ -2,17 +2,25 @@
 
 function BG_color_change(){
 
-	document.body.style.backgroundColor = "rgb(" + Math.floor(Math.random() * 256) + "," +
-			Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() *256) + ")" ;
-			setTimeout(BG_color_change, 3000);
-	//document.body.style.backgroundColor = "red";
-}
+	var red = Math.floor(Math.random() * 256);
+	var blue = Math.floor(Math.random() * 256);
+	var green = Math.floor(Math.random() * 256);
 
-function run_color_change(){
-
-	while(true) {
-		setTimeout(BG_color_change, 3000);
+	if(red < 180){
+		red = 180;
 	}
+
+	if(blue < 180){
+		blue = 180;
+	}
+
+	if(green < 180){
+		green = 180;
+	}
+
+	document.body.style.backgroundColor = "rgb(" + red + "," +
+			green + "," + blue + ")" ;
+			setTimeout(BG_color_change, 3000);
 }
 
 
